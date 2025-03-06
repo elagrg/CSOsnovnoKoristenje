@@ -11,7 +11,7 @@ namespace Klase_i_konstruktori
         static void Main(string[] args)
         {
             int broj = 0;
-            int drugiBroj = broj;
+            int drugiBroj = broj;  //npr. int je vrijednosni tip, kopira se vrijednost; promjena jedne varijable ne utječe na drugu
 
             Osoba os = new Osoba();
 
@@ -28,7 +28,8 @@ namespace Klase_i_konstruktori
             Console.WriteLine(os3.ImePrezime());
             Console.WriteLine(os4.ImePrezime());
 
-            Osoba osn = os4;
+            //klase su referentni tip, prenose referencu na isti objekt:
+            Osoba osn = os4;                       //osn ne stvara novi objekt nego pokazuje na isti objekt na koji pokazuje os4
             Console.WriteLine(os4.ImePrezime());
             Console.WriteLine(osn.ImePrezime());
 
@@ -36,8 +37,9 @@ namespace Klase_i_konstruktori
             Console.WriteLine(os4.ImePrezime());
             Console.WriteLine(osn.ImePrezime());
 
+            //mijenjanje bilo koje reference mijenja originalni objekt
             osn.Prezime = "";
-            Console.WriteLine(os4.ImePrezime());      // Ban Josip
+            Console.WriteLine(os4.ImePrezime());      // Ban Josip      
             Console.WriteLine(osn.ImePrezime());      // Ban Josip
         }
     }
