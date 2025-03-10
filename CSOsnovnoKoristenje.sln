@@ -89,6 +89,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasljeđivanje_vozila.Konzo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasljeđivanje_vozila.Model", "Nasljeđivanje_vozila.Model\Nasljeđivanje_vozila.Model.csproj", "{885169F0-354D-4C3B-BAF4-72452B9B87E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasljedjivanje_geometrijska_tijela_i_likovi", "Nasljedjivanje_geometrijska_tijela_i_likovi\Nasljedjivanje_geometrijska_tijela_i_likovi.csproj", "{264D95EA-096A-4AF4-854C-F1244BF40F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasljedjivanje_zivotinje", "Nasljedjivanje_zivotinje\Nasljedjivanje_zivotinje.csproj", "{7B6BBC7D-E80F-4A9E-9C20-EE79696F35FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +271,14 @@ Global
 		{885169F0-354D-4C3B-BAF4-72452B9B87E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{885169F0-354D-4C3B-BAF4-72452B9B87E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{885169F0-354D-4C3B-BAF4-72452B9B87E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264D95EA-096A-4AF4-854C-F1244BF40F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264D95EA-096A-4AF4-854C-F1244BF40F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264D95EA-096A-4AF4-854C-F1244BF40F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264D95EA-096A-4AF4-854C-F1244BF40F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6BBC7D-E80F-4A9E-9C20-EE79696F35FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6BBC7D-E80F-4A9E-9C20-EE79696F35FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6BBC7D-E80F-4A9E-9C20-EE79696F35FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6BBC7D-E80F-4A9E-9C20-EE79696F35FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
